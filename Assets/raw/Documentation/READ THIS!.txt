@@ -1,0 +1,46 @@
+﻿Thank you for purchasing MFPS 2.0!.
+Version 1.10.0
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+**PLEASE NOTE** 
+
+ MFPS 2.0 can only be legally downloaded from:
+ www.lovattostudio.com
+ and 
+ assetstore.unity.com
+
+If you have acquired MFPS through any unauthorized sources, please be aware that your license is deemed invalid,
+and usage of the software is prohibited. 
+Lovatto Studio, as the proprietor and developer of MFPS, cannot offer support for pirated or potentially modified software. 
+To receive assistance, kindly ensure that you have purchased the software legally from one of the previously mentioned authorized sources.
+
+If you have obtained this software illicitly and intend to utilize it for any project, be it commercial or non-commercial,
+we kindly request that you acquire MFPS legitimately by visiting the following link: https://assetstore.unity.com/packages/slug/101171. 
+Upon purchasing, you will be included in our list of verified buyers, ensuring that you can use the software without any complications. 
+Failure to comply may result in legal repercussions, as MFPS is a registered and protected product under applicable intellectual property laws.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+check the In-Editor documentation and tutorials in (Unity Toolbar) MFPS -> Tutorials -> *.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+Requirement:
+
+Unity 2022.3++
+Photon PUN2 2.3++
+
+Optional:
+
+Photon Voice 2 v2.5++
+
+This project uses the network system : "Photon PUN 2" (free or plus).
+
+You don't need to have your own server, you can use the Photon Network cloud servers with 20 ccu for free for the development phase.
+
+if you have questions, please feel free to ask me by e-mail.
+contact.lovattostudio@gmail.com
+or join us on Discord: https://discord.gg/8zF5B4G
+
+Video Tutorials: 
+
+  Get Started Video: https://www.youtube.com/watch?v=i6qfVKk0TqY

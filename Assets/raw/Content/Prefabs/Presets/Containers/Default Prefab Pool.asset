@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b1020601804244b47baa2222162cf, type: 3}
+  m_Name: Default Prefab Pool
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - Key: bullet
+    Prefab: {fileID: 100000, guid: 83c2f1113cb82f4458ed92f89bb90803, type: 3}
+    PoolCount: 100
+    InstanceMethod: 0
+  - Key: decalm
+    Prefab: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
+    PoolCount: 25
+    InstanceMethod: 1
+  - Key: decalw
+    Prefab: {fileID: 1000011190285628, guid: beb3acff7ab73944fb8f470f24d74ed3, type: 3}
+    PoolCount: 25
+    InstanceMethod: 1
+  - Key: decalwt
+    Prefab: {fileID: 1207871914986542, guid: cc0ed5c90f000224d9121d5a47d39960, type: 3}
+    PoolCount: 25
+    InstanceMethod: 0
+  - Key: decals
+    Prefab: {fileID: 1000012142692022, guid: a475880e7da0e9548aa05cb7933752cd, type: 3}
+    PoolCount: 25
+    InstanceMethod: 1
+  - Key: blood
+    Prefab: {fileID: 447592039559256936, guid: f634953d43a66184da3976554db9118b, type: 3}
+    PoolCount: 25
+    InstanceMethod: 1
+  - Key: decalc
+    Prefab: {fileID: 1000010844420130, guid: 4edabb1c0dde62743b137378c7d22980, type: 3}
+    PoolCount: 25
+    InstanceMethod: 1
+  - Key: decal
+    Prefab: {fileID: 1000010844420130, guid: 4edabb1c0dde62743b137378c7d22980, type: 3}
+    PoolCount: 30
+    InstanceMethod: 0
+  - Key: deathicon
+    Prefab: {fileID: 1304675692033152, guid: fa0fcfe8ebba6cc41b7415678d5e6e61, type: 3}
+    PoolCount: 16
+    InstanceMethod: 1
+  - Key: explosion
+    Prefab: {fileID: 1577321590075106, guid: 3c0fb8b353537b9469c5fef13421be3d, type: 3}
+    PoolCount: 7
+    InstanceMethod: 0
+  - Key: dark-smoke
+    Prefab: {fileID: 1727412523231980, guid: b0d95aa6051618848addd190ef56a864, type: 3}
+    PoolCount: 3
+    InstanceMethod: 1

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a141d4a0dc135d4abe53852669d77ed, type: 3}
+  m_Name: Core Settings [Dev]
+  m_EditorClassIdentifier: 
+  offlineMode: 0
+  verifySingleSession: 1
+  UseLobbyChat: 1
+  UseVoiceChat: 1
+  DropWeaponOnDeath: 1
+  SelfGrenadeDamage: 1
+  CanFireWhileRunning: 1
+  CanReloadWhileRunning: 1
+  showMuzzleFlashWhileAiming: 0
+  HealthRegeneration: 1
+  ShowTeamMateHealthBar: 1
+  canSwitchTeams: 1
+  ShowBlood: 1
+  DetectAFK: 0
+  MasterCanKickPlayers: 1
+  cameraShakeOnDamage: 1
+  ShowNetworkStats: 0
+  RememberPlayerName: 1
+  ShowWeaponLoadout: 1
+  useCountDownOnStart: 1
+  showCrosshair: 1
+  showDamageIndicator: 1
+  doSpawnHandMeshEffect: 1
+  playerViewRolling: 1
+  allowFallDamage: 1
+  applyForceToRagdolls: 1
+  realisticBullets: 1
+  bulletDecals: 1
+  BulletTracer: 1
+  showProjectilesTrails: 1
+  filterProfanityWords: 1
+  showNameplatesOnSpectator: 0
+  allowFastMeeleWithoutEquip: 1
+  allowMenuWhenMatchOver: 1
+  automaticallyLoadRoomUI: 1
+  useTurnInPlace: 1
+  AmmoType: 1
+  killFeedWeaponShowMode: 1
+  lobbyJoinMethod: 2
+  killCameraType: 2
+  localKillsShowMode: 0
+  changeWeaponStyle: 0
+  weaponSwayMode: 1
+  switchToPickupWeapon: 1
+  throwWeaponEquipLogic: 1
+  onLeaveSpectatorMode: 0
+  howConsiderBotsEliminations: 0
+  thirdPersonFirePointPermission: -1
+  quickMeeleWeaponID: 5
+  GameVersion: 1.10.0
+  guestNameFormat: Guest {0}
+  botsNameFormat: BOT {0}
+  SpawnProtectedTime: 5
+  CountDownTime: 10
+  PlayerRespawnTime: 5
+  MaxFriendsAdded: 25
+  BulletHitDetectionStep: 3
+  afterMatchCountdown: 10
+  AFKTimeLimit: 60
+  MaxChangeTeamTimes: 3
+  maxSuicideAttempts: 3
+  MainMenuScene: MainMenu
+  OnDisconnectScene: MainMenu

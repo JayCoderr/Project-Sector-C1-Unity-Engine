@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee2feedf2c82bb44baa8b696ea94c6a8, type: 3}
+  m_Name: Ladder Settings
+  m_EditorClassIdentifier: 
+  activeMode: 0
+  hideWeapons: 1
+  facingDirection: 5
+  climbSpeed: 3
+  climbInterval: 0.3
+  pauseDuration: 0.15
+  jumpBackDistance: 6
+  jumpUpDistance: 4
+  viewAngleRange: 70
+  exitPointOffset: 0.1

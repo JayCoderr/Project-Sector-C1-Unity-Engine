@@ -1,0 +1,18 @@
+{
+    "name": "MFPS.Internal.Utility",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d3d418de7c2fccd4bbaf999485f2b655",
+        "GUID:46876e56ea834b64c956c6ec707b6a62",
+        "GUID:36a63cb6f6863e74e82f091f73aa5979"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "MFPS.Runtime.Audio",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d3d418de7c2fccd4bbaf999485f2b655"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

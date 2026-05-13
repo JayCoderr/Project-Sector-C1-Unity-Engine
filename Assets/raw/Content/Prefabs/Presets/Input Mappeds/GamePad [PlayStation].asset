@@ -1,0 +1,397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202df628334fb2a4daf60a54e9de6749, type: 3}
+  m_Name: GamePad [PlayStation]
+  m_EditorClassIdentifier: 
+  inputDevice: 2
+  mapped:
+    ButtonMap:
+    - KeyName: Fire
+      Description: Fire
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: RT PS
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Aim
+      Description: Aiming
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: LT PS
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Reload
+      Description: Reload
+      PrimaryKey: 330
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Run
+      Description: Sprint
+      PrimaryKey: 340
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Jump
+      Description: Jump
+      PrimaryKey: 331
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Crouch
+      Description: Crouch
+      PrimaryKey: 341
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Interact
+      Description: Interaction
+      PrimaryKey: 332
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Weapon1
+      Description: Weapon Slot 1
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Weapon2
+      Description: Weapon Slot 2
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Weapon3
+      Description: Weapon Slot 3
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Weapon4
+      Description: Weapon Slot 4
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: NextWeapon
+      Description: Next Weapon
+      PrimaryKey: 334
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: -1
+    - KeyName: PreviousWeapon
+      Description: Previous Weapon
+      PrimaryKey: 335
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: -1
+    - KeyName: ThrowItem
+      Description: Throw Item
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: DPad H PS
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: FireType
+      Description: Change Fire Rate
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: DPad V PS
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: FastKnife
+      Description: Fast Knife
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: DPad V PS
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: -1
+    - KeyName: TeamChat
+      Description: Team Chat
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: QuickNade
+      Description: Quick Nade
+      PrimaryKey: 333
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: -1
+    - KeyName: Scoreboard
+      Description: Scoreboard
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: GeneralChat
+      Description: Chat
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: SwitchView
+      Description: Change View
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: VoiceTalk
+      Description: Push To Talk
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Emote
+      Description: Emote Menu
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Leaning Left
+      Description: Leaning Left
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Leaning Right
+      Description: Leaning Right
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Stealth
+      Description: Stealth Mode
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: DropWeapon
+      Description: Drop Weapon
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Spray
+      Description: Toggle Spray Menu
+      PrimaryKey: 110
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Ping
+      Description: Ping
+      PrimaryKey: 325
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Radio Command
+      Description: Open Radio Command
+      PrimaryKey: 308
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+  cameraVerticalAxis: Mouse Y PS
+  cameraHorizontalAxis: Mouse X PS
+  menuButton: 339
+  submitButton: 331
+  hasCustomNames: 1
+  buttonsNames:
+  - DisplayName: Cross
+    KeyCode: 331
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: Square
+    KeyCode: 330
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: Circle
+    KeyCode: 332
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: Triangle
+    KeyCode: 333
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: L1
+    KeyCode: 334
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: R1
+    KeyCode: 335
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: L2
+    KeyCode: 336
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: R2
+    KeyCode: 337
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: L Joystick Button
+    KeyCode: 340
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: R Joystick Button
+    KeyCode: 341
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: Options
+    KeyCode: 339
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: Share
+    KeyCode: 338
+    AxisName: 
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: DPad Up
+    KeyCode: 0
+    AxisName: DPad V PS
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: DPad Down
+    KeyCode: 0
+    AxisName: DPad V PS
+    AxisIsPositive: 0
+    Icon: {fileID: 0}
+  - DisplayName: DPad Left
+    KeyCode: 0
+    AxisName: DPad H PS
+    AxisIsPositive: 0
+    Icon: {fileID: 0}
+  - DisplayName: DPad Right
+    KeyCode: 0
+    AxisName: DPad H PS
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: Touchpad
+    KeyCode: 343
+    AxisName: 
+    AxisIsPositive: 0
+    Icon: {fileID: 0}
+  - DisplayName: L2
+    KeyCode: 0
+    AxisName: LT PS
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  - DisplayName: R2
+    KeyCode: 0
+    AxisName: RT PS
+    AxisIsPositive: 1
+    Icon: {fileID: 0}
+  DeviceAxis:
+  - AxisName: RT PS
+    RestValue: -1
+  - AxisName: LT PS
+    RestValue: -1
+  - AxisName: DPad V PS
+    RestValue: 0
+  - AxisName: DPad H PS
+    RestValue: 0

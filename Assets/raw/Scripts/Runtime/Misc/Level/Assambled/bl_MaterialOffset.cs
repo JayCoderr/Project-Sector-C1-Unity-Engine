@@ -1,0 +1,39 @@
+﻿using UnityEngine;
+
+public class bl_MaterialOffset : MonoBehaviour
+{
+
+    [Range(-0.02f, 0.02f)] public float XOffset;
+    [Range(-0.02f, 0.02f)] public float YOffset;
+    public bool useSecondLayer = false;
+    [Range(-0.02f, 0.02f)] public float SecondXOffset;
+    [Range(-0.02f, 0.02f)] public float SecondYOffset;
+
+    private Material Mat;
+    private float X = 0;
+    private float Y = 0;
+    private float SecondX = 0;
+    private float SecondY = 0;
+
+    void Awake()
+    {
+        Mat = GetComponent<Renderer>().material;
+    }
+
+    void Update()
+    {
+        if (Mat == null)
+            return;
+        float delta = Time.deltaTime;
+
+        X += delta * XOffset;
+        Y += delta * YOffset;
+        Mat.SetTextureOffset("_MainTex", new Vector2(X, Y));
+        if (useSecondLayer)
+        {
+            SecondX += delta * SecondXOffset;
+            SecondY += delta * SecondYOffset;
+            Mat.SetTextureOffset("_DetailAlbedoMap", new Vector2(SecondX, SecondY));
+        }
+    }
+}

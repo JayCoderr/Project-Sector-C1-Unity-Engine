@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c311fd21bf7c334690a170bd037a39a, type: 3}
+  m_Name: Player Audio Bank
+  m_EditorClassIdentifier: 
+  AudioBank:
+  - Name: slide
+    Clip: {fileID: 8300000, guid: 0e62cba4936c6004da842fed6f787ae0, type: 3}
+    Volume: 0.7
+    SpacialAudio: 0
+    Loop: 0
+    AudioMixerGroup: {fileID: 24323422, guid: 3f20cadf16b3ac5489009d1f5827cb40, type: 2}
+  - Name: landing
+    Clip: {fileID: 8300000, guid: 1142e67564ca1704ca527284dbcab8f8, type: 3}
+    Volume: 0
+    SpacialAudio: 0
+    Loop: 0
+    AudioMixerGroup: {fileID: 24323422, guid: 3f20cadf16b3ac5489009d1f5827cb40, type: 2}
+  - Name: jump
+    Clip: {fileID: 8300000, guid: 3da65563a83b70e4dbc74bf9322d0ebe, type: 3}
+    Volume: 1
+    SpacialAudio: 0
+    Loop: 0
+    AudioMixerGroup: {fileID: 24323422, guid: 3f20cadf16b3ac5489009d1f5827cb40, type: 2}
+  - Name: double-jump
+    Clip: {fileID: 8300000, guid: 72b45bd045e43e64fb65b22d5732fb3d, type: 3}
+    Volume: 1
+    SpacialAudio: 0
+    Loop: 0
+    AudioMixerGroup: {fileID: 24323422, guid: 3f20cadf16b3ac5489009d1f5827cb40, type: 2}
+  - Name: crouch
+    Clip: {fileID: 8300000, guid: 1d5e0c0b81273d841a17ae4a37b64a6d, type: 3}
+    Volume: 1
+    SpacialAudio: 0
+    Loop: 0
+    AudioMixerGroup: {fileID: 24323422, guid: 3f20cadf16b3ac5489009d1f5827cb40, type: 2}

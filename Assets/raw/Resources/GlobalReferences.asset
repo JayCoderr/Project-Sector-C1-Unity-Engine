@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f7d2b8c1038504f877ca2dba836fd2, type: 3}
+  m_Name: GlobalReferences
+  m_EditorClassIdentifier: 
+  databaseHandler: {fileID: 11400000, guid: 45562c1c9b58f4942a7ee0b3f1da6b71, type: 2}
+  sceneLoader: {fileID: 11400000, guid: 29378ef374afdda4997808cca6533c28, type: 2}
+  MFPSAudioMixer: {fileID: 24100000, guid: 3f20cadf16b3ac5489009d1f5827cb40, type: 2}
+  BadWordsDatabase: {fileID: 4900000, guid: 1c14fb9b0f84a9541bcb725f97ca4b7f, type: 3}
+  PlayerPlaceholder: {fileID: 5638214191947880703, guid: 9a1a0fe4030b94741b5cace15386be7d, type: 3}
+  aimSpring: {fileID: 11400000, guid: 381405cfb87274e4eb49576df93b9e61, type: 2}
+  globalTeam: {fileID: 11400000, guid: 0569a30eb9ba6974d8d7b3887665cefa, type: 2}
+  GenericWeaponAnimators:
+  - GunType: 1
+    Animator: {fileID: 9100000, guid: 2678744f5fb5685438afadf4b5eb5596, type: 2}
+  - GunType: 6
+    Animator: {fileID: 9100000, guid: 78de4ad3d1a712147874229715b7fad1, type: 2}
+  - GunType: 5
+    Animator: {fileID: 9100000, guid: 7588a803f98b1cb41991beb6b8db3ced, type: 2}
+  gameItemCollectors:
+  - typeName: bl_CustomizerData
+    methodName: CollectDefaultItems
+  - typeName: MFPS.Addon.PlayerSelector.bl_PlayerSelectorData
+    methodName: CollectDefaultItems
+  - typeName: bl_MFPS+GameData
+    methodName: CollectDefaultItems
+  SpawnPointPlayerGizmo: {fileID: 4550490184446523656, guid: afa6b75f0e3aae141b5d02e9e26b8d19, type: 3}

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bcf9477b4008d4d97a659a990e49d8, type: 3}
+  m_Name: Semi-Sniper Recoil Settings
+  m_EditorClassIdentifier: 
+  recoilType: 2
+  recoilPattern:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.012299966
+      outSlope: 0.012299966
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.101022884
+      value: 0.001242578
+      inSlope: -0.0011411955
+      outSlope: -0.0011411955
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.3923601
+    - serializedVersion: 3
+      time: 0.22891611
+      value: -0.1687206
+      inSlope: 0.83251935
+      outSlope: 0.83251935
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.3325691
+      value: 0.14161485
+      inSlope: 1.015735
+      outSlope: 1.015735
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.302169
+    - serializedVersion: 3
+      time: 0.46628284
+      value: -0.25630486
+      inSlope: 0.15745735
+      outSlope: 0.15745735
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.62068444
+      value: 0.2518033
+      inSlope: 0.16963577
+      outSlope: 0.16963577
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.76793694
+      value: -0.18281984
+      inSlope: -0.21192586
+      outSlope: -0.21192586
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8570394
+      value: 0.04240428
+      inSlope: 1.1155417
+      outSlope: 1.1155417
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.29661512
+      outSlope: -0.29661512
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  recoilPerShot: 0.38
+  recoilVerticalIntensity: 4
+  recoilHorizontalIntensity: 0.5
+  recoilDuration: 0.16
+  maxRecoilValue: 8
+  recoilSmoothness: 14

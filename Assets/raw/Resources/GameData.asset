@@ -1,0 +1,566 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b33f0ff16976a942b2873cb5a7b974f, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  coreSettings: {fileID: 11400000, guid: 30b73683b7d06be47920f743a8ec19d9, type: 2}
+  UIScene:
+    Scene: {fileID: 102900000, guid: 69a41505f0400fd49855a9664994fdb5, type: 3}
+    Name: RoomUI
+    Path: Assets/MFPS/Scenes/RoomUI.unity
+  AllScenes:
+  - ShowName: Guanaco Desert
+    m_Scene: {fileID: 102900000, guid: 7b433244bb0354246a7c6a8c682e5441, type: 3}
+    RealSceneName: ExampleLevel
+    Path: Assets/MFPS/Scenes/ExampleLevel.unity
+    Preview: {fileID: 21300000, guid: 25fb9a33aa9a85941872ba986282f5fb, type: 3}
+    NoAllowedGameModes: 
+  AllWeapons:
+  - Name: Rifle
+    Key: 7HmV3Y5
+    Type: 1
+    Active: 1
+    Damage: 25
+    FireRate: 0.09
+    ReloadTime: 2.1
+    Range: 600
+    Accuracy: 2
+    Weight: 2
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 10
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: 59c560ab0d189a94ebc9a73b29d258fc, type: 3}
+  - Name: Pistol
+    Key: 6fIYAux
+    Type: 3
+    Active: 1
+    Damage: 25
+    FireRate: 0.1
+    ReloadTime: 2.7
+    Range: 300
+    Accuracy: 3
+    Weight: 1.95
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: 67817f6c38715a64a8074a1940d6b954, type: 3}
+  - Name: Shotgun
+    Key: h07mNAb
+    Type: 0
+    Active: 1
+    Damage: 50
+    FireRate: 1.25
+    ReloadTime: 6
+    Range: 100
+    Accuracy: 1
+    Weight: 2.2
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: f46bf914a29644c46a4d817ec77246cb, type: 3}
+  - Name: Grenade
+    Key: Ufw3EV0
+    Type: 5
+    Active: 1
+    Damage: 80
+    FireRate: 2
+    ReloadTime: 2
+    Range: 14
+    Accuracy: 1
+    Weight: 1.7
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: 5888e24ba146f2141b5c01400fd2c24c, type: 3}
+  - Name: Sniper
+    Key: 7TIpglU
+    Type: 2
+    Active: 1
+    Damage: 100
+    FireRate: 1
+    ReloadTime: 3
+    Range: 700
+    Accuracy: 5
+    Weight: 2.2
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: 8fc34eb714f6fa64f928bbad3049b5d8, type: 3}
+  - Name: Knife
+    Key: 31MmSPo
+    Type: 6
+    Active: 1
+    Damage: 60
+    FireRate: 0.7
+    ReloadTime: 1
+    Range: 2
+    Accuracy: 1
+    Weight: 1.6
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: 38349530c3a41fd4a8ecc2df82a57e3a, type: 3}
+  - Name: Molotov
+    Key: 5lzH3BL
+    Type: 5
+    Active: 1
+    Damage: 20
+    FireRate: 1
+    ReloadTime: 1.2
+    Range: 10
+    Accuracy: 2
+    Weight: 1.6
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: 2fd72e2aa4d7cc14f993fa22e6f2ff19, type: 3}
+  - Name: Grenade Launcher
+    Key: ccwYdFZ
+    Type: 7
+    Active: 1
+    Damage: 75
+    FireRate: 2
+    ReloadTime: 3
+    Range: 130
+    Accuracy: 1
+    Weight: 2.5
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: f22b479294de3414e987ba1cb0e2e81f, type: 3}
+  - Name: Flash Grenade
+    Key: TB3QwAR
+    Type: 5
+    Active: 1
+    Damage: 1
+    FireRate: 2
+    ReloadTime: 2
+    Range: 14
+    Accuracy: 1
+    Weight: 1.7
+    Unlockability:
+      UnlockMethod: 2
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 10
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: f34caea5cb0e96546aaf73991bc1db48, type: 3}
+  - Name: AR
+    Key: FWLBpoD
+    Type: 1
+    Active: 1
+    Damage: 30
+    FireRate: 0.1
+    ReloadTime: 2.8
+    Range: 700
+    Accuracy: 2.8
+    Weight: 2.3
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 10
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: b2b966f820894be408f78b96363b98e4, type: 3}
+  - Name: Fists
+    Key: uEo7xPX
+    Type: 6
+    Active: 1
+    Damage: 25
+    FireRate: 0.3
+    ReloadTime: 0.5
+    Range: 1
+    Accuracy: 5
+    Weight: 1.1
+    Unlockability:
+      UnlockMethod: 4
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    GunIcon: {fileID: 21300000, guid: ea263cad39134c54eb9d9ff6075bd99b, type: 3}
+  scoreSettings: {fileID: 11400000, guid: a441348b66b8e0d4da86fb718056cd78, type: 2}
+  defaultSettings: {fileID: 11400000, guid: 5fadfa78dabe7f6429f21e8ed3cc747b, type: 2}
+  gameModes:
+  - ModeName: Team Death Match
+    gameMode: 0
+    isEnabled: 1
+    isTeamMode: 1
+    supportBots: 1
+    AutoTeamSelection: 0
+    RequiredPlayersToStart: 1
+    onRoundStartedSpawn: 0
+    overrideSpawnSelectionMode: 0
+    onPlayerDie: 0
+    RoundModeAllowed: 0
+    AfterFinishMatch: 1
+    OverrideKillCamMode: 0
+    playersTeamSelection: 0
+    botsTeamSelection: 0
+    GoalName: Kills
+    UnlimitedTime: 0
+    allowedPickupWeapons: 1
+    AllowKillAssist: 1
+    AllowSpectateEnemies: 1
+    AllowSingleWeaponTypeOnly: 1
+    AllowSwitchTeam: 1
+    ShowKillFeed: 1
+    UnlistGameAfterStarted: 0
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 1
+    maxPlayers: 060000000200000004000000080000000a00000014000000
+    GameGoalsOptions: 320000006400000096000000c8000000
+    timeLimits: 8403000058020000b00400002c010000
+  - ModeName: Free For All
+    gameMode: 1
+    isEnabled: 1
+    isTeamMode: 0
+    supportBots: 1
+    AutoTeamSelection: 0
+    RequiredPlayersToStart: 1
+    onRoundStartedSpawn: 0
+    overrideSpawnSelectionMode: 4
+    onPlayerDie: 0
+    RoundModeAllowed: 0
+    AfterFinishMatch: 1
+    OverrideKillCamMode: 0
+    playersTeamSelection: 0
+    botsTeamSelection: 0
+    GoalName: Kills
+    UnlimitedTime: 0
+    allowedPickupWeapons: 1
+    AllowKillAssist: 1
+    AllowSpectateEnemies: 1
+    AllowSingleWeaponTypeOnly: 1
+    AllowSwitchTeam: 1
+    ShowKillFeed: 1
+    UnlistGameAfterStarted: 0
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 0
+    maxPlayers: 060000000200000004000000080000000c000000
+    GameGoalsOptions: 19000000320000004b0000000a000000
+    timeLimits: 8403000058020000b00400002c010000
+  - ModeName: Capture Of Flag
+    gameMode: 2
+    isEnabled: 1
+    isTeamMode: 1
+    supportBots: 0
+    AutoTeamSelection: 1
+    RequiredPlayersToStart: 2
+    onRoundStartedSpawn: 0
+    overrideSpawnSelectionMode: 0
+    onPlayerDie: 0
+    RoundModeAllowed: 0
+    AfterFinishMatch: 1
+    OverrideKillCamMode: 0
+    playersTeamSelection: 0
+    botsTeamSelection: 0
+    GoalName: Captures
+    UnlimitedTime: 0
+    allowedPickupWeapons: 1
+    AllowKillAssist: 1
+    AllowSpectateEnemies: 1
+    AllowSingleWeaponTypeOnly: 1
+    AllowSwitchTeam: 1
+    ShowKillFeed: 1
+    UnlistGameAfterStarted: 0
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 1
+    maxPlayers: 060000000200000004000000080000000e000000
+    GameGoalsOptions: 05000000070000000b00000003000000
+    timeLimits: 8403000058020000b00400002c010000
+  - ModeName: Elimination
+    gameMode: 7
+    isEnabled: 0
+    isTeamMode: 1
+    supportBots: 1
+    AutoTeamSelection: 1
+    RequiredPlayersToStart: 1
+    onRoundStartedSpawn: 1
+    overrideSpawnSelectionMode: 0
+    onPlayerDie: 1
+    RoundModeAllowed: 3
+    AfterFinishMatch: 1
+    OverrideKillCamMode: 1
+    playersTeamSelection: 0
+    botsTeamSelection: 0
+    GoalName: Rounds
+    UnlimitedTime: 0
+    allowedPickupWeapons: 1
+    AllowKillAssist: 1
+    AllowSpectateEnemies: 0
+    AllowSingleWeaponTypeOnly: 1
+    AllowSwitchTeam: 0
+    ShowKillFeed: 1
+    UnlistGameAfterStarted: 0
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 0
+    maxPlayers: 06000000020000000400000008000000
+    GameGoalsOptions: 02000000070000000b00000003000000
+    timeLimits: 8403000058020000b00400002c010000
+  - ModeName: Covert Point
+    gameMode: 4
+    isEnabled: 0
+    isTeamMode: 1
+    supportBots: 0
+    AutoTeamSelection: 1
+    RequiredPlayersToStart: 2
+    onRoundStartedSpawn: 0
+    overrideSpawnSelectionMode: 0
+    onPlayerDie: 0
+    RoundModeAllowed: 0
+    AfterFinishMatch: 1
+    OverrideKillCamMode: 0
+    playersTeamSelection: 0
+    botsTeamSelection: 0
+    GoalName: Tickets
+    UnlimitedTime: 0
+    allowedPickupWeapons: 1
+    AllowKillAssist: 1
+    AllowSpectateEnemies: 1
+    AllowSingleWeaponTypeOnly: 1
+    AllowSwitchTeam: 1
+    ShowKillFeed: 1
+    UnlistGameAfterStarted: 0
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 1
+    maxPlayers: 06000000020000000400000008000000
+    GameGoalsOptions: f4010000e8030000dc050000d0070000
+    timeLimits: 8403000058020000b00400002c010000
+  - ModeName: Gun Race
+    gameMode: 5
+    isEnabled: 0
+    isTeamMode: 0
+    supportBots: 0
+    AutoTeamSelection: 0
+    RequiredPlayersToStart: 1
+    onRoundStartedSpawn: 0
+    overrideSpawnSelectionMode: 4
+    onPlayerDie: 0
+    RoundModeAllowed: 0
+    AfterFinishMatch: 1
+    OverrideKillCamMode: 0
+    playersTeamSelection: 0
+    botsTeamSelection: 0
+    GoalName: First Player
+    UnlimitedTime: 0
+    allowedPickupWeapons: 0
+    AllowKillAssist: 1
+    AllowSpectateEnemies: 1
+    AllowSingleWeaponTypeOnly: 0
+    AllowSwitchTeam: 0
+    ShowKillFeed: 1
+    UnlistGameAfterStarted: 0
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 0
+    maxPlayers: 06000000020000000400000008000000
+    GameGoalsOptions: 
+    timeLimits: 8403000058020000b00400002c010000
+  - ModeName: Demolition
+    gameMode: 8
+    isEnabled: 0
+    isTeamMode: 1
+    supportBots: 0
+    AutoTeamSelection: 1
+    RequiredPlayersToStart: 2
+    onRoundStartedSpawn: 1
+    overrideSpawnSelectionMode: 0
+    onPlayerDie: 1
+    RoundModeAllowed: 1
+    AfterFinishMatch: 1
+    OverrideKillCamMode: 1
+    playersTeamSelection: 0
+    botsTeamSelection: 0
+    GoalName: Rounds
+    UnlimitedTime: 0
+    allowedPickupWeapons: 1
+    AllowKillAssist: 1
+    AllowSpectateEnemies: 0
+    AllowSingleWeaponTypeOnly: 1
+    AllowSwitchTeam: 0
+    ShowKillFeed: 1
+    UnlistGameAfterStarted: 0
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 1
+    maxPlayers: 06000000020000000400000008000000
+    GameGoalsOptions: 0200000007000000030000000d000000
+    timeLimits: 9600000058020000b00400002c010000
+  - ModeName: Battle Royal
+    gameMode: 6
+    isEnabled: 0
+    isTeamMode: 0
+    supportBots: 0
+    AutoTeamSelection: 1
+    RequiredPlayersToStart: 1
+    onRoundStartedSpawn: 1
+    overrideSpawnSelectionMode: 0
+    onPlayerDie: 1
+    RoundModeAllowed: 2
+    AfterFinishMatch: 0
+    OverrideKillCamMode: 2
+    playersTeamSelection: 0
+    botsTeamSelection: 0
+    GoalName: Alives
+    UnlimitedTime: 0
+    allowedPickupWeapons: 1
+    AllowKillAssist: 0
+    AllowSpectateEnemies: 0
+    AllowSingleWeaponTypeOnly: 0
+    AllowSwitchTeam: 0
+    ShowKillFeed: 0
+    UnlistGameAfterStarted: 1
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 0
+    maxPlayers: 40000000
+    GameGoalsOptions: 
+    timeLimits: 8403000058020000b00400002c010000
+  - ModeName: Kill Confirmed
+    gameMode: 9
+    isEnabled: 0
+    isTeamMode: 1
+    supportBots: 1
+    AutoTeamSelection: 1
+    RequiredPlayersToStart: 1
+    onRoundStartedSpawn: 0
+    overrideSpawnSelectionMode: 0
+    onPlayerDie: 0
+    RoundModeAllowed: 0
+    AfterFinishMatch: 1
+    OverrideKillCamMode: 0
+    playersTeamSelection: 0
+    botsTeamSelection: 0
+    GoalName: Kills
+    UnlimitedTime: 0
+    allowedPickupWeapons: 1
+    AllowKillAssist: 1
+    AllowSpectateEnemies: 1
+    AllowSingleWeaponTypeOnly: 1
+    AllowSwitchTeam: 1
+    ShowKillFeed: 1
+    UnlistGameAfterStarted: 0
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 1
+    maxPlayers: 06000000020000000400000008000000
+    GameGoalsOptions: 1e0000003200000064000000c8000000
+    timeLimits: 8403000058020000b00400002c010000
+  - ModeName: Infected
+    gameMode: 12
+    isEnabled: 0
+    isTeamMode: 1
+    supportBots: 0
+    AutoTeamSelection: 1
+    RequiredPlayersToStart: 2
+    onRoundStartedSpawn: 0
+    overrideSpawnSelectionMode: 0
+    onPlayerDie: 0
+    RoundModeAllowed: 1
+    AfterFinishMatch: 1
+    OverrideKillCamMode: 0
+    playersTeamSelection: 3
+    botsTeamSelection: 1
+    GoalName: Rounds
+    UnlimitedTime: 0
+    allowedPickupWeapons: 1
+    AllowKillAssist: 1
+    AllowSpectateEnemies: 1
+    AllowSingleWeaponTypeOnly: 1
+    AllowSwitchTeam: 0
+    ShowKillFeed: 1
+    UnlistGameAfterStarted: 0
+    ShowPlayerScoreboard: 1
+    showDeathIconsOnTeammates: 1
+    maxPlayers: 0600000004000000080000000a0000000e000000
+    GameGoalsOptions: 0300000005000000070000000a000000
+    timeLimits: b4000000f00000002c010000a4010000
+  team1: {fileID: 11400000, guid: d010186223ff7c0439e85174c8e25473, type: 2}
+  team2: {fileID: 11400000, guid: 25a276bb638b23f42bf73ef928310c20, type: 2}
+  Player1: {fileID: 6672547878129058871, guid: 242aa8d781fa6bd4eb5358bcc67ad2e8, type: 3}
+  Player2: {fileID: 8269520186984634776, guid: 353e316434d9793459b9f62107ccc19f, type: 3}
+  Player1SkinID: 0
+  Player2SkinID: 0
+  BotTeam1: {fileID: 3538422504253550603, guid: 2d7bac90fae8ff44f8e272e080e9e4e8, type: 3}
+  BotTeam2: {fileID: 3538422504253550603, guid: 9a08bdf787ec8204e957886e96b5afc8, type: 3}
+  gameCoins:
+  - {fileID: 11400000, guid: a8e2d139cede6ec4dbb43712a6f9a86f, type: 2}
+  - {fileID: 11400000, guid: 6249e2dd81be65b448a55259fd1d2bea, type: 2}
+  playerClassesNames:
+  - DisplayName: Assault
+    Identifier: 0
+    ClassIcon: {fileID: 21300000, guid: b0352e7b0e89e984684cea8e468cbe8d, type: 3}
+  - DisplayName: Recon
+    Identifier: 1
+    ClassIcon: {fileID: 21300000, guid: 694d13ff81af88746ae8c1c7e22f5870, type: 3}
+  - DisplayName: Support
+    Identifier: 2
+    ClassIcon: {fileID: 21300000, guid: 94023acb2bb71dc48803d59834b5dde9, type: 3}
+  - DisplayName: Engineer
+    Identifier: 3
+    ClassIcon: {fileID: 21300000, guid: 70031709382732e4c9afec25d00a19e5, type: 3}
+  punRegions:
+  - Name: NA - USW
+    Identifier: 6
+  - Name: NA - US
+    Identifier: 1
+  - Name: EU - AMSTERDAM
+    Identifier: 0
+  - Name: NA - CANADA
+    Identifier: 8
+  - Name: AS - SINGAPORE
+    Identifier: 2
+  - Name: AS - JAPAN
+    Identifier: 3
+  - Name: AS - SEOUL
+    Identifier: 9
+  - Name: AU - MELBOURNE
+    Identifier: 5
+  - Name: SA - SAO PAULO
+    Identifier: 7
+  - Name: RU - MOSCU
+    Identifier: 11
+  - Name: RU - EAST
+    Identifier: 12
+  - Name: ZA - SOUTH AFRICA
+    Identifier: 13
+  - Name: IN - CHENNAI
+    Identifier: 10
+  allowedWeaponOnlyOptions: 0100000002000000030000000000000006000000
+  mouseLookSettings: {fileID: 11400000, guid: 68ddc6624e6fafd41b8349be7933fcc9, type: 2}
+  weaponSlotRuler: {fileID: 11400000, guid: 08554bfc9f078a24088357ad2e7b0050, type: 2}
+  tagsAndLayersSettings: {fileID: 11400000, guid: a4bcf2e6bc508bb4b914bd8659a80b09, type: 2}
+  networkStatsPrefab: {fileID: 114540858508667146, guid: 47e8f16e00224b24c9b6429f7e655979, type: 3}
+  _MFPSLicense: 
+  _MFPSFromStore: 0
+  _keyToken: 

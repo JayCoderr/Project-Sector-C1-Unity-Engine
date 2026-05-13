@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c002d0b837a268e48bd842bdb9f8b82b, type: 3}
+  m_Name: Score Settings
+  m_EditorClassIdentifier: 
+  XPCoin: 0
+  CoinScoreValue: 100
+  ScorePerKill: 100
+  ScorePerHeadShot: 25
+  ScorePerKillAssist: 20
+  ScoreForWinMatch: 1000
+  ScoreForLostMatch: 400
+  ScorePerTimePlayed: 1
+  ScorePerVehicleDestroy: 200
+  ScoreForAmmoSupplying: 10
+  ScoreForHealthSupplying: 15
+  ScoreForFlagCapture: 300
+  ScoreForFlagRecover: 150
